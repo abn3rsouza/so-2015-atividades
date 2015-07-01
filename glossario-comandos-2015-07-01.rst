@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Abner Souza
+:Matrícula: 20121144010133
 :Data: 01/07/2015
 
 cat
@@ -13,7 +13,8 @@ cat
 
 
 cd
-  Descrição do comando
+  Comando para entrar em um certo diretório
+     cd /var/html/www/so/abner
 
 
 cowsay

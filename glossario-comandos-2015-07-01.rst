@@ -14,7 +14,7 @@ cat
 
 cd
   Comando para entrar em um certo diretório
-     cd /var/html/www/so/abner
+   cd /var/html/www/so/abner
 
 
 cowsay
@@ -42,7 +42,7 @@ HISTTIMEFORMAT="%d/%m/%y
 
 
 hostname
-  Descrição do comando
+  nome da máquina em que vc está
 
 
 ifconfig
@@ -58,11 +58,11 @@ lastb
 
 
 ls
-  Descrição do comando
+  Lista arquivos e/ou diretórios; E.:
 
 
 mkdir
-  Descrição do comando
+  Criar diretório; Ex.: mkdir -p /var/www/html/so/.antigo/${USER}/; Ex.: mKdir fusca;
 
 
 nome="fulano

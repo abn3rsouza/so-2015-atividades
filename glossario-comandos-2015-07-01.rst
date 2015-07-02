@@ -9,16 +9,16 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Esse comando serve para exibir um arquivo, criar um arquivo ou concatenar arquivos.
-    cat [opções] arquivo ou cat arquivo = imprime na tela o conteúdo do arquivo
-    cat > arquivo =  cria um arquivo recebendo o texto digitado logo após o comando. Para sair do arquivo criado utilize Ctrl + D.
-    cat arquivo1 >> arquivo2 = esse comando faz com que o arquivo2 receba o conteúdo do arquivo1. Obs.: as informações contidas no arquivo2 são sobrescritas pelas do arquivo1. 
+Esse comando serve para exibir um arquivo, criar um arquivo ou concatenar arquivos.
+cat [opções] arquivo ou cat arquivo = imprime na tela o conteúdo do arquivo
+cat > arquivo =  cria um arquivo recebendo o texto digitado logo após o comando. Para sair do arquivo criado utilize Ctrl + D.
+cat arquivo1 >> arquivo2 = esse comando faz com que o arquivo2 receba o conteúdo do arquivo1. Obs.: as informações contidas no arquivo2 são sobrescritas pelas do arquivo1. 
 
 cd
-  Muda de diretório.
-    cd = volta pro diretório atual
-    cd /caminho = vai para o caminho
-    cd /diretorio
+Muda de diretório.
+cd = volta pro diretório atual
+cd /caminho = vai para o caminho
+cd /diretorio
 
 cowsay
   Programa de troca de mensagens a partir de animações em ASCII.

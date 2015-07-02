@@ -9,28 +9,37 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
-
+  Esse comando serve para exibir um arquivo, criar um arquivo ou concatenar arquivos.
+    cat [opções] arquivo ou cat arquivo = imprime na tela o conteúdo do arquivo
+    cat > arquivo =  cria um arquivo recebendo o texto digitado logo após o comando. Para sair do arquivo criado utilize Ctrl + D.
+    cat arquivo1 >> arquivo2 = esse comando faz com que o arquivo2 receba o conteúdo do arquivo1. Obs.: as informações contidas no arquivo2 são sobrescritas pelas do arquivo1. 
 
 cd
-  Comando para entrar em um certo diretório
-   cd /var/html/www/so/abner
-
+  Muda de diretório.
+    cd = volta pro diretório atual
+    cd /caminho = vai para o caminho
+    cd /diretorio
 
 cowsay
-  Descrição do comando
-
+  Programa de troca de mensagens a partir de animações em ASCII.
+    cowsay -l = ver todas as variações de animações.
+	  cowsay “mensagem” = manda a mensagem para o seu próprio terminal em configuração default, ou seja, uma vaca.
+	  cowsay –f kiss “mensagem” = manda a mensagem para o seu próprio terminal em configuração kiss, ou seja, de um beijo.   Atenção: o kiss pode ser substituído pelas outras variações.
+  	cowsay –f kiss “mensagem” | write colega = manda a mensagem para o terminal do seu colega em configuração kiss, ou seja, de um beijo. Atenção: o kiss pode ser substituído pelas outras variações.
 
 echo
-  Descrição do comando
-
+  Mostra os argumentos na saída.
+    echo /* = exibe todos os nomes de arquivos de um diretório em ordem alfabética.
+    echo "$VARIAVEL" = verifica o conteúdo da variável de ambiente VARIAVEL. 
 
 env
-  Descrição do comando
-
+  Lista as variáveis de ambiente. 
+  
+  env
 
 exit
-  Descrição do comando
+  Sair do local atual.
+    exit ou Ctrl + D
 
 
 help

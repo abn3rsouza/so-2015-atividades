@@ -15,31 +15,30 @@ cat
  cat arquivo1 >> arquivo2 = esse comando faz com que o arquivo2 receba o conteúdo do arquivo1. Obs.: as informações    contidas no arquivo2 são sobrescritas pelas do arquivo1. 
 
 cd
-Muda de diretório.
-cd = volta pro diretório atual
-cd /caminho = vai para o caminho
-cd /diretorio
+ Muda de diretório.
+ cd = volta pro diretório atual
+ cd /caminho = vai para o caminho
+ cd /diretorio
 
 cowsay
-  Programa de troca de mensagens a partir de animações em ASCII.
+ Programa de troca de mensagens a partir de animações em ASCII.
     cowsay -l = ver todas as variações de animações.
 	  cowsay “mensagem” = manda a mensagem para o seu próprio terminal em configuração default, ou seja, uma vaca.
 	  cowsay –f kiss “mensagem” = manda a mensagem para o seu próprio terminal em configuração kiss, ou seja, de um beijo.   Atenção: o kiss pode ser substituído pelas outras variações.
   	cowsay –f kiss “mensagem” | write colega = manda a mensagem para o terminal do seu colega em configuração kiss, ou seja, de um beijo. Atenção: o kiss pode ser substituído pelas outras variações.
 
 echo
-  Mostra os argumentos na saída.
-    echo /* = exibe todos os nomes de arquivos de um diretório em ordem alfabética.
-    echo "$VARIAVEL" = verifica o conteúdo da variável de ambiente VARIAVEL. 
+ Mostra os argumentos na saída.
+ echo /* = exibe todos os nomes de arquivos de um diretório em ordem alfabética.
+ echo "$VARIAVEL" = verifica o conteúdo da variável de ambiente VARIAVEL. 
 
 env
-  Lista as variáveis de ambiente. 
-  
+ Lista as variáveis de ambiente. 
   env
 
 exit
-  Sair do local atual.
-    exit ou Ctrl + D
+ Sair do local atual.
+ exit ou Ctrl + D
 
 
 help

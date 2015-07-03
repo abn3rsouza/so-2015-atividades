@@ -102,39 +102,41 @@ pwd
   Executando "pwd" no diretório Desktop mostrará "~/Desktop". Observe que o Terminal do Gnome também mostra esta        informação na barra de títulos da janela. Veja a imagem de exemplo no topo desta página. 
 
 
-set
-  Descrição do comando
 
+set
+    Define variáveis da sessão, ou seja, da shell, na C shell, na bash ou na ksh.
 
 tree
-  Descrição do comando
+    Este utilitário lista o conteúdo de um diretório usando o formato de árvore. Ele tem a mesma função do comando ls. A diferença consiste na maneira como as informações são exibidas. Exemplo:
+
+
+tree /etc -Exibe arquivos e diretórios que estão abaixo do diretório /etc.
 
 
 tty
-  Descrição do comando
-
+    Este comando mostra o nome do arquivo conectado à entrada padrão.
 
 vim
-  Descrição do comando
-
+    Editor de texto.
 
 wait
-  Descrição do comando
-
+    Espera que um determinado comando seja executado pra depois executar o os outros
 
 wall
-  Descrição do comando
+ Escreve para mais de um dos utilizadores que estejam logados no momento. EXEMPLO: wall Olá, pessoas! Tudo bem? CTRL + D
 
 
 which
-  Descrição do comando
-
+    Localização do comando. Exemplo: which who /usr/bin/who- Diretório onde se encontra o who.
 
 while
-  Descrição do comando
+    Permite que você faça uma condição, e enquanto ela for verdadeira, ele executará o bloco de comandos.
 
+        Sintaxe: while comando_de_teste do bloco de comandos done
 
-who
+    Exemplo: var=100 while[$var -gt 0] do echo $var var=$[var-1]
+
+donewho
  Semelhante ao comando w mostra quais usuários estão logados no sistema.
  ”who -m” para mostrar o nome do usuário logado no sistema.
  ”who -q” para mostrar a quantidade total e nomes dos usuário conectados ao sistema. 
